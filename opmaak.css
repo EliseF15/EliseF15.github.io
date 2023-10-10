@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Homepage</title>
+    <meta charset="utf-8">
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+      }
+
+      h1 {
+        color: blue;
+      }
+
+      header{
+        background-color:lightgray;
+        padding: 1rem;
+        text-align: center;
+      }
+
+      p {
+        font-size: 18px;
+        line-height: 1.4;
+      }
+
+      img {
+        max-width: 100%;
+        height: auto;
+        display: block;
+        margin: 0 auto;
+      }
+
+      ul {
+        list-style-type: none;
+        padding: 0;
+      }
+
+      li {
+        margin-bottom: 10px;
+      }
+
+      a {
+        text-decoration: none;
+        color: #333;
+        font-weight: bold;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Home</h1>
+    <p>Welcome to my website</p>
+    <img src="IMG_1336.jpeg" alt="me" width="200" height="300">
+    <p>I am <b>Elise Fung</b>, I am 15 years old and live in Nieuw-Vennep, The Netherlands. As a sport, I play football and I am a right back. My hobby is listening to music.</p>
+    <p><b>menu</b></p>
+    <ul>
+      <li><a href="me.html">Who am I?</a></li>
+      <li><a href="Binarysystem.html">Explanation of binary system</a></li>
+      <li><a href="AI.html">AI</a></li>
+      <li><a href="colormodels.html">Color models</a></li>
+    </ul>
+  </body>
+</html>
