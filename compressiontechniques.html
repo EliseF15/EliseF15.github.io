@@ -17,7 +17,44 @@
   <li><a href="colormodels.html">color models</a></li>
 </ul>
 <img src="Compression-Techniques-Jeff-99.png" alt="compression"width="450" height="300">
-<p></p>
+<ol>
+  <li>Lossless Compression:
+
+    Lossless compression methods reduce the size of data without losing any information. The original data can be perfectly reconstructed from the compressed version.
+    Ideal for text, program files, and databases where data integrity is crucial.
+    Common lossless compression algorithms include Run-Length Encoding (RLE), Huffman coding, Arithmetic coding, Lempel-Ziv-Welch (LZW) compression, ZIP, and GZIP.
+  </li>
+  <li>Lossy Compression:
+
+    Lossy compression is used for multimedia data where some loss of quality is acceptable in exchange for significant reduction in file size.
+    Common lossy compression techniques include:
+    JPEG (Joint Photographic Experts Group) for images.
+    MP3 (MPEG Audio Layer III) for audio.
+    MPEG (Moving Picture Experts Group) for video.
+    Video codecs like H.264, H.265 (HEVC), and VP9.
+  </li>
+  <li>Hybrid Compression:
+
+    Hybrid compression methods combine both lossless and lossy techniques to strike a balance between compression ratios and quality.
+    Some image formats offer both lossless and lossy compression options.
+  </li>
+  <li>Dictionary-Based Compression:
+
+    These techniques create a dictionary of frequently occurring patterns in the data and then represent the data using references to dictionary entries.
+    For example, Lempel-Ziv-Welch (LZW) compression used in formats like GIF.
+  </li>
+  <li>Transform-Based Compression:
+
+    Transform-based methods convert data into a different domain where it can be more efficiently compressed.
+    The Discrete Cosine Transform (DCT) used in JPEG is a well-known example.
+    After compression, data is transformed back to its original domain.
+  </li>
+  <li>Entropy Encoding:
+
+    Entropy encoding techniques, like Huffman coding and arithmetic coding, assign shorter codes to more frequent symbols in the data.
+    Highly effective for compressing text and data with varying symbol frequencies.
+  </li>
+</ol>
 
 
 </body>
